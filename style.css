@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #4a4a4a;
+}
+section {
+    scroll-margin-top: 80px;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #fde2e4;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #c94f7c;
+    font-size: 24px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #6d6875;
+    font-weight: 500;
+}
+
+.nav-menu a:hover {
+    color: #c94f7c;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background: linear-gradient(135deg, #fde2e4, #f8edeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #c94f7c;
+}
+
+.hero-text p {
+    margin: 15px 0 25px;
+    font-size: 18px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #c94f7c;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fde2e4;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* Section */
+.section {
+    padding: 70px 15%;
+    text-align: center;
+}
+
+.bg-soft {
+    background-color: #fdf0f2;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #c94f7c;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background-color: #fde2e4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #c94f7c;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.project-card h3 {
+    color: #c94f7c;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #fde2e4;
+    text-align: center;
+    padding: 20px;
+    color: #6d6875;
+}
